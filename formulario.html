@@ -168,7 +168,7 @@
                         }
                 function preencherCEP(conteudo){
                     if("erro" in conteudo){
-                    resposta.textContent = "CEP não encontrado, digite manualmente o endereço!"
+                    alert ("CEP não encontrado, digite manualmente o endereço!")
                 } else {
                     document.getElementById("rua").value = conteudo.logradouro
                     document.getElementById("cidade").value = conteudo.localidade
